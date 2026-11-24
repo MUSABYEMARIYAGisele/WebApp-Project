@@ -2,12 +2,14 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'NodeJS-24'
+        nodejs 'NodeJS 24.x'
     }
 
     stages {
         stage('Install Dependencies') {
             steps {
+                sh 'node --version'
+                sh 'npm --version'
                 sh 'npm ci'
             }
         }
