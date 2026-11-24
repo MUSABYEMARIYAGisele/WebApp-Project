@@ -1,5 +1,5 @@
 pipeline {
-    agent any ff
+    agent any
 
     stages {
         stage('Install Dependencies') {
