@@ -1,0 +1,11 @@
+{
+  "name": "coderwanda-webapp",
+  "version": "1.0.0",
+  "description": "A simple CODERWANDA Ltd web application for DevOps practical work",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {}
+}
